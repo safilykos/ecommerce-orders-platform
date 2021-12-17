@@ -1,9 +1,28 @@
-# Soukna Online - Boutique e-commerce
+# Laravel e-commerce application
 
-Projet réalisé pour **Soukna Online** — E-commerce - habillement et accessoires, Oran.
+Full-stack web application skeleton: routing, MVC controllers, Blade views and Eloquent models.
 
-- **Période :** 2021-05-10 au 2021-12-17
-- **Rôle :** conception et développement full-stack
-- **Stack :** PHP 8.1, Laravel, Blade, Livewire, MySQL
+## Features
 
-Commerçant oranais spécialisé dans l'habillement, Soukna souhaitait lancer sa boutique en ligne avec panier, commandes et livraison à domicile sur Oran et ses environs.
+- Product catalog with categories
+- User accounts and authentication
+- Cart and checkout flow
+- Order and delivery management
+- Admin back-office
+- Promotions and customer reviews
+
+## Tech stack
+
+**PHP 8.1, Laravel, Blade, MySQL**
+
+## Getting started
+
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
+
+## License
+
+See the LICENSE file included in this repository.
